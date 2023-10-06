@@ -1,2 +1,2 @@
 #!//bin/bash
-gcc $CFILE | tee c 
+gcc -E  $CFILE -o c
