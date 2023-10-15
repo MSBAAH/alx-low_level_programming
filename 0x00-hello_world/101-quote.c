@@ -10,8 +10,8 @@
 
 int main(void)
 {
-	char qu[]="and that piece of art is useful\" - Dora Korpar, 2015-10-19";
-	write(1,qu, strlen(qu));
-	
-	return(1);
+	char qu[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+
+	write(1, qu, strlen(qu));
+	return (1);
 }
