@@ -19,7 +19,7 @@ int main(void)
 	 n = rand();
 	 m = n % 10 ;
 
-	printf("The last digit of the random number is: %d", n % 10);
+	printf("The last digit of %d is: %d ", n , n % 10);
 	if (m > 5)
 	{
 		printf("and is greater than 5\n");
