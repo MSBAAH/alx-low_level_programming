@@ -19,7 +19,7 @@ int main(void)
 	 n = rand();
 	 m = n % 10 ;
 
-	printf("The last digit of %d is: %d ", n , n % 10);
+	printf("The last digit of %d is %d ", n , n % 10);
 	if (m < 5 && m != 0 )
 	{
 		printf("and is less than 6 and not 0\n");
