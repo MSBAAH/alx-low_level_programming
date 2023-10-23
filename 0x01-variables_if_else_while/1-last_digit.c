@@ -1,4 +1,5 @@
 #include <stdlib.h>
+#include <stdio.h>
 #include <time.h>
 /* more headers goes there */
 /**
@@ -16,7 +17,6 @@ int main(void)
 	/* your code goes there */
 	 n = rand();
 
-	// Print the last digit of the random number.
 	printf("The last digit of the random number is: %d\n", n % 10);
 
 	return (0);
