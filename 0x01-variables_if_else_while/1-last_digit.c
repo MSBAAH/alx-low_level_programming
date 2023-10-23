@@ -28,7 +28,7 @@ int main(void)
 		printf("and is 0\n");
 	} else
 	{
-		printf("and is greater than 5");
+		printf("and is greater than 5\n");
 	}
 
 	return (0);
