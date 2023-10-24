@@ -1,4 +1,13 @@
-#include <main.h>
+#include "main.h"
+
+/**
+ * _memset - check the code
+ *@s : good
+ *@b: good
+ *@n: the address of memory to print
+ *
+ * Return: Always 0.
+ */
 
 char *_memset(char *s, char b, unsigned int n)
 {
