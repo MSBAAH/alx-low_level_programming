@@ -16,7 +16,7 @@ int main (void)
 			if(digit < digit2 && digit != digit2)
 			{
 				putchar(digit + 48);
-				putchar(digit +48);
+				putchar(digit2 +48);
 				if (digit + digit2 != 17 )
 				{
 					putchar(',');
