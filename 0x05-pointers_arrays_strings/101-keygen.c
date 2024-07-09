@@ -4,7 +4,7 @@
 
 /**
  *main-generates candom passwords for 101-crackne * Returns zeza
- *Return: int
+ *Rieturn: int
 */
 int main(void)
 {
@@ -18,6 +18,6 @@ int main(void)
 		sum += c;
 		putchar(c);
 	}
-	putchar (2772 - sum);
+	putchar(2772 - sum);
 	return (0);
 }
