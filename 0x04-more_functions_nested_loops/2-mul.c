@@ -9,6 +9,5 @@
 */
 int mul(int a, int b)
 {
-	if (c >= 48 && c <= 57)
-		return (a * b);
+	return (a * b);
 }
