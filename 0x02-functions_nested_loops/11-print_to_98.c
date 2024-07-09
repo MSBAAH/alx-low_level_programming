@@ -1,8 +1,7 @@
 #include "main.h"
 
 /**
- * main - check the code
- * print_to_98
+ * print_to_98 - print
  * @n :input
  * Return: Always 0.
  */
