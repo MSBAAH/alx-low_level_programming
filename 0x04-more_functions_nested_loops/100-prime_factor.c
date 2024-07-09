@@ -14,7 +14,7 @@ double _sqrt(double x)
 {
 	float sqrt, tmp;
 
-	sqrt = x / 3;
+	sqrt = x / 2;
 	tmp = 0;
 
 	while (sqrt != tmp)
