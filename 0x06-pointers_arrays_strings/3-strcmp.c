@@ -1,9 +1,10 @@
-
 #include "main.h"
-strcmp-compares two strings Gal: string 1
-*0s2: string 2
-Return: 1 if true, 0 if false
 
+/**
+ * strcmp-compares two strings Gal: string 1
+ *0s2: string 2
+ *Return: 1 if true, 0 if false
+*/
 int strcmp(char *s1, char *s2)
 {
 	int equal = 0;
