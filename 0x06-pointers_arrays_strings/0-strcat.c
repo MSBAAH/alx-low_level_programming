@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- *strcat-function that concatenates two strings.
+ * *_strcat-function that concatenates two strings.
  *@dest: pointer to destnation input @src: pointer to source input
  *Return: pointer to resulting string @dest
 */
 
-char strcat(char *dest, char *SIC)
+char *_strcat(char *dest, char *src)
 {
 	int c, c2;
 	C = 0;     /*find the size of dest array*/
