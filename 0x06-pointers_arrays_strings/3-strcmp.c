@@ -1,25 +1,45 @@
-#include "main.h"
-
 /**
- * strcmp-compares two strings Gal: string 1
- *0s2: string 2
- *Return: 1 if true, 0 if false
-*/
+ * _strcmp - a function that compares two strings
+ *
+ * @s1: string 1 input to compare
+ * @s2: against this other string 2
+ *
+ * Return: 0 if s1 and s2 are equal
+ *	negative integer if the stopping character
+ *		in @s1 was less than the stopping
+ *		character in @s2
+ *	positive integer if the stopping character
+ *		in @s1 was greater than the stopping
+ *		character in @s2
+ */
 int _strcmp(char *s1, char *s2)
 {
-	int equal = 0;
-	
-	while (*s1)
+	int i = 0, r;
+
+	/**
+	 * iterate through src and
+	 * compare it with dest
+	 */
+	while (s1[i] != '\0' && s2[i] != '\0')
 	{
-		if (*s1 != *s2)
+		/**
+		 * if they differ by a single character
+		 * don't iterate further
+		 */
+		if (s1[i] != s2[i])
 		{
-			equal = ((int)*s1 - 48) -((int)*s2 - 48);
+			/**
+			 * return the difference between
+			 * the two characters
+			 */
+			r = s1[i] - s2[i];
 			break;
-
 		}
-		s1++;
-		s2++;
+		else
+		{
+			r = s1[i] - s2[i];
+		}
+		i++;
 	}
-	return (equal);
-
+	return (r);
 }
