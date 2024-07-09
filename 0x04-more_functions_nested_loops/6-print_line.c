@@ -9,7 +9,7 @@
 
 void print_line(int n)
 {
-	int Inchr;
+	int InChr;
 
 	if (n <= 0)
 		_putchar('\n');
